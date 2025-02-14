@@ -1,74 +1,91 @@
-<<<<<<< HEAD
-# neuro
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🧠 **Neurophysiology Quiz**  
+A fun and interactive **Neurophysiology Quiz App** built with **React**! Test your knowledge on neurophysiology with 76 well-crafted questions and receive motivational messages on correct answers. 
 
-## Available Scripts
+![Neurophysiology Quiz Screenshot](https://raw.githubusercontent.com/AdirBuskila/neurophysiology-quiz/main/screenshot.png)  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 **Live Demo**  
+🔗 **[Try the Live Quiz Here](https://AdirBuskila.github.io/neurophysiology-quiz/)**  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 **Features**  
+✅ **76 Neurophysiology Questions** – Carefully curated questions to enhance learning.  
+✅ **Motivational Messages** – Fun, science-themed messages when you answer correctly.  
+✅ **Progress Tracking** – Saves your last question, so you can resume anytime.  
+✅ **Dark Mode Toggle 🌙** – Switch between light and dark mode.  
+✅ **Jump to Questions** – Easily navigate between different questions.  
+✅ **Elegant UI Design** – Aesthetic and user-friendly interface.  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 **Tech Stack**  
+- **React** – Core framework  
+- **React Hooks** – State management  
+- **CSS3** – Custom styling  
+- **GitHub Pages** – Deployed for public access  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 **Installation & Setup**  
+1️⃣ **Clone the repository**  
+```bash
+git clone https://github.com/AdirBuskila/neurophysiology-quiz.git
+cd neurophysiology-quiz
+```
+  
+2️⃣ **Install dependencies**  
+```bash
+npm install
+```
+  
+3️⃣ **Start the development server**  
+```bash
+npm start
+```
+- The app will open at **http://localhost:3000/**  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 **Deployment on GitHub Pages**  
+1️⃣ **Build the project**  
+```bash
+npm run build
+```
+  
+2️⃣ **Deploy to GitHub Pages**  
+```bash
+npm run deploy
+```
 
-### `npm run eject`
+- **Live site will be available at:**  
+🔗 `https://AdirBuskila.github.io/neurophysiology-quiz/`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 **Screenshots**  
+| Light Mode  | Dark Mode |
+|-------------|-----------|
+| ![Light Mode](https://raw.githubusercontent.com/AdirBuskila/neurophysiology-quiz/main/light.png) | ![Dark Mode](https://raw.githubusercontent.com/AdirBuskila/neurophysiology-quiz/main/dark.png) |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 **Contributing**  
+Contributions are welcome! To contribute:  
+1. Fork the repo  
+2. Create a new branch (`feature-branch`)  
+3. Commit your changes  
+4. Push the branch and open a Pull Request  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📜 **License**  
+This project is licensed under the **MIT License**.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+🔥 **Enjoy the Neurophysiology Quiz and level up your knowledge!** 🔥  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 512f6a6 (Initial commit - Version 1.0)
+---
