@@ -834,6 +834,468 @@ const quizData = [
         ],
         correct: 2,
         explanation: "The spinal cord processes reflex actions through simple neural circuits, bypassing the brain for faster responses."
+    },
+    {
+        question: "Which type of ion channel is responsible for the resting membrane potential?",
+        options: [
+            "Voltage-gated sodium channels",
+            "Ligand-gated potassium channels",
+            "Leak potassium channels",
+            "Calcium channels"
+        ],
+        correct: 2,
+        explanation: "Leak potassium channels allow a steady outflow of K+ ions, maintaining the resting membrane potential."
+    },
+    {
+        question: "What is the primary function of the sodium-potassium pump?",
+        options: [
+            "Allow passive diffusion of ions",
+            "Transport sodium and potassium ions against their concentration gradients",
+            "Depolarize the neuron",
+            "Inhibit neurotransmitter release"
+        ],
+        correct: 1,
+        explanation: "The sodium-potassium pump actively transports Na+ out of the cell and K+ into the cell, maintaining ion gradients."
+    },
+    {
+        question: "Which phase of the action potential is characterized by Na+ influx?",
+        options: [
+            "Resting phase",
+            "Depolarization",
+            "Repolarization",
+            "Hyperpolarization"
+        ],
+        correct: 1,
+        explanation: "Depolarization occurs when voltage-gated sodium channels open, allowing Na+ to rush into the neuron."
+    },
+    {
+        question: "Which glial cell is responsible for forming the blood-brain barrier?",
+        options: [
+            "Astrocytes",
+            "Oligodendrocytes",
+            "Microglia",
+            "Ependymal cells"
+        ],
+        correct: 0,
+        explanation: "Astrocytes help form the blood-brain barrier by regulating the passage of substances into the brain."
+    },
+    {
+        question: "Which ion is responsible for repolarization during an action potential?",
+        options: [
+            "Na+",
+            "Ca2+",
+            "Cl-",
+            "K+"
+        ],
+        correct: 3,
+        explanation: "Repolarization occurs when voltage-gated potassium channels open, allowing K+ to leave the cell."
+    },
+    {
+        question: "What is the refractory period?",
+        options: [
+            "A period of increased excitability",
+            "A period when a neuron cannot fire another action potential",
+            "The time required for neurotransmitter release",
+            "The duration of synaptic transmission"
+        ],
+        correct: 1,
+        explanation: "The refractory period is when a neuron cannot fire another action potential immediately after one has occurred."
+    },
+    {
+        question: "Which structure in the neuron propagates action potentials?",
+        options: [
+            "Dendrites",
+            "Axon",
+            "Cell body",
+            "Synaptic terminal"
+        ],
+        correct: 1,
+        explanation: "The axon conducts action potentials away from the neuron's cell body toward the synaptic terminals."
+    },
+    {
+        question: "What is the role of myelin in nerve conduction?",
+        options: [
+            "Slows down action potential propagation",
+            "Increases action potential speed via saltatory conduction",
+            "Acts as a neurotransmitter receptor",
+            "Inhibits neurotransmitter release"
+        ],
+        correct: 1,
+        explanation: "Myelin speeds up action potential conduction by allowing the signal to 'jump' between nodes of Ranvier."
+    },
+    {
+        question: "Which neurotransmitter is primarily excitatory in the central nervous system?",
+        options: [
+            "GABA",
+            "Glutamate",
+            "Serotonin",
+            "Dopamine"
+        ],
+        correct: 1,
+        explanation: "Glutamate is the primary excitatory neurotransmitter in the CNS, playing a role in learning and memory."
+    },
+    {
+        question: "Which neurotransmitter is most associated with sleep regulation?",
+        options: [
+            "Serotonin",
+            "Dopamine",
+            "Glutamate",
+            "Norepinephrine"
+        ],
+        correct: 0,
+        explanation: "Serotonin is involved in regulating sleep, mood, and appetite."
+    },
+    {
+        question: "Which sensory receptor type detects changes in temperature?",
+        options: [
+            "Mechanoreceptors",
+            "Thermoreceptors",
+            "Nociceptors",
+            "Photoreceptors"
+        ],
+        correct: 1,
+        explanation: "Thermoreceptors respond to changes in temperature, detecting heat or cold stimuli."
+    },
+    {
+        question: "What is the function of nociceptors?",
+        options: [
+            "Detect changes in pH",
+            "Sense pain and tissue damage",
+            "Respond to mechanical pressure",
+            "Detect changes in light"
+        ],
+        correct: 1,
+        explanation: "Nociceptors are sensory receptors responsible for detecting pain and noxious stimuli."
+    },
+    {
+        question: "Which part of the brain is primarily responsible for regulating emotions?",
+        options: [
+            "Cerebellum",
+            "Limbic system",
+            "Brainstem",
+            "Thalamus"
+        ],
+        correct: 1,
+        explanation: "The limbic system, including the amygdala and hippocampus, plays a key role in emotion processing."
+    },
+    {
+        question: "Which type of glial cell produces cerebrospinal fluid (CSF)?",
+        options: [
+            "Astrocytes",
+            "Ependymal cells",
+            "Microglia",
+            "Schwann cells"
+        ],
+        correct: 1,
+        explanation: "Ependymal cells line the ventricles of the brain and produce cerebrospinal fluid."
+    },
+    {
+        question: "Which structure acts as the primary relay for sensory information?",
+        options: [
+            "Cerebellum",
+            "Thalamus",
+            "Hypothalamus",
+            "Basal ganglia"
+        ],
+        correct: 1,
+        explanation: "The thalamus acts as the brain's relay center for sensory information before sending it to the cortex."
+    },
+    {
+        question: "Which neurotransmitter is involved in movement and coordination and is deficient in Parkinson's disease?",
+        options: [
+            "Acetylcholine",
+            "Dopamine",
+            "GABA",
+            "Glutamate"
+        ],
+        correct: 1,
+        explanation: "Dopamine is crucial for motor control, and its deficiency leads to Parkinson’s disease."
+    },
+    {
+        question: "Which part of the nervous system is responsible for involuntary actions?",
+        options: [
+            "Somatic nervous system",
+            "Autonomic nervous system",
+            "Cerebral cortex",
+            "Basal ganglia"
+        ],
+        correct: 1,
+        explanation: "The autonomic nervous system controls involuntary actions such as heart rate and digestion."
+    },
+    {
+        question: "Which region of the brain is responsible for memory consolidation?",
+        options: [
+            "Cerebellum",
+            "Hippocampus",
+            "Prefrontal cortex",
+            "Brainstem"
+        ],
+        correct: 1,
+        explanation: "The hippocampus is crucial for consolidating short-term memories into long-term storage."
+    },
+    {
+        question: "Which type of receptor is responsible for detecting light in the retina?",
+        options: [
+            "Mechanoreceptors",
+            "Nociceptors",
+            "Photoreceptors",
+            "Chemoreceptors"
+        ],
+        correct: 2,
+        explanation: "Photoreceptors in the retina detect light and allow vision."
+    },
+    {
+        question: "Which cranial nerve is primarily responsible for eye movement?",
+        options: [
+            "Trigeminal (V)",
+            "Abducens (VI)",
+            "Facial (VII)",
+            "Vagus (X)"
+        ],
+        correct: 1,
+        explanation: "The abducens nerve (cranial nerve VI) controls lateral eye movement."
+    },
+    {
+        question: "Which structure in the ear is responsible for converting sound waves into neural signals?",
+        options: [
+            "Cochlea",
+            "Tympanic membrane",
+            "Semicircular canals",
+            "Ossicles"
+        ],
+        correct: 0,
+        explanation: "The cochlea contains hair cells that transduce sound vibrations into neural signals."
+    },
+    {
+        question: "Which neurotransmitter is primarily inhibitory in the brain?",
+        options: [
+            "Glutamate",
+            "GABA",
+            "Dopamine",
+            "Serotonin"
+        ],
+        correct: 1,
+        explanation: "GABA is the main inhibitory neurotransmitter in the brain, reducing neuronal excitability."
+    },
+    {
+        question: "Which of the following is NOT a function of the muscular system?",
+        options: [
+            "Movement of the body",
+            "Production of body heat",
+            "Generation of nerve impulses",
+            "Constriction of organs and vessels"
+        ],
+        correct: 2,
+        explanation: "The muscular system is responsible for movement, heat production, and organ constriction, but nerve impulse generation is a function of the nervous system."
+    },
+    {
+        question: "Which property allows a muscle to return to its original shape after stretching?",
+        options: [
+            "Contractility",
+            "Excitability",
+            "Extensibility",
+            "Elasticity"
+        ],
+        correct: 3,
+        explanation: "Elasticity is the ability of muscle to recoil to its original resting length after being stretched."
+    },
+    {
+        question: "Which type of muscle is responsible for propelling food through the digestive tract?",
+        options: [
+            "Skeletal muscle",
+            "Smooth muscle",
+            "Cardiac muscle",
+            "Voluntary muscle"
+        ],
+        correct: 1,
+        explanation: "Smooth muscle, found in the walls of hollow organs, propels food through the digestive tract."
+    },
+    {
+        question: "Which connective tissue covering surrounds an individual muscle fiber?",
+        options: [
+            "Epimysium",
+            "Perimysium",
+            "Endomysium",
+            "Fasciculus"
+        ],
+        correct: 2,
+        explanation: "The endomysium is a loose connective tissue layer that surrounds each muscle fiber."
+    },
+    {
+        question: "What is the basic structural and functional unit of a skeletal muscle?",
+        options: [
+            "Sarcomere",
+            "Myofibril",
+            "Actin filament",
+            "Fascicle"
+        ],
+        correct: 0,
+        explanation: "A sarcomere is the functional unit of skeletal muscle responsible for contraction."
+    },
+    {
+        question: "What is the role of calcium ions in muscle contraction?",
+        options: [
+            "They bind to myosin heads to start contraction",
+            "They activate troponin, allowing actin-myosin interaction",
+            "They provide ATP for energy",
+            "They trigger synaptic vesicle release in the motor neuron"
+        ],
+        correct: 1,
+        explanation: "Calcium binds to troponin, causing a shift in tropomyosin and exposing actin's binding sites for myosin."
+    },
+    {
+        question: "What enzyme breaks down acetylcholine at the neuromuscular junction?",
+        options: [
+            "Monoamine oxidase",
+            "Choline acetyltransferase",
+            "Acetylcholinesterase",
+            "ATPase"
+        ],
+        correct: 2,
+        explanation: "Acetylcholinesterase degrades acetylcholine, stopping muscle contraction."
+    },
+    {
+        question: "Which type of skeletal muscle contraction does NOT change muscle length?",
+        options: [
+            "Isotonic contraction",
+            "Eccentric contraction",
+            "Concentric contraction",
+            "Isometric contraction"
+        ],
+        correct: 3,
+        explanation: "Isometric contractions generate force without changing muscle length, such as in posture maintenance."
+    },
+    {
+        question: "Which process allows muscles to generate ATP in the absence of oxygen?",
+        options: [
+            "Aerobic metabolism",
+            "Anaerobic glycolysis",
+            "Oxidative phosphorylation",
+            "Electron transport chain"
+        ],
+        correct: 1,
+        explanation: "Anaerobic glycolysis breaks down glucose to produce ATP quickly but generates lactic acid."
+    },
+    {
+        question: "Which muscle fiber type is most resistant to fatigue?",
+        options: [
+            "Fast-twitch fibers",
+            "Slow-twitch fibers",
+            "Intermediate fibers",
+            "Myosin-heavy fibers"
+        ],
+        correct: 1,
+        explanation: "Slow-twitch (Type I) fibers have more mitochondria and myoglobin, making them highly resistant to fatigue."
+    },
+    {
+        question: "What is the major function of myoglobin in muscle cells?",
+        options: [
+            "Stores ATP",
+            "Facilitates oxygen storage and transport",
+            "Breaks down glycogen",
+            "Produces actin filaments"
+        ],
+        correct: 1,
+        explanation: "Myoglobin stores oxygen and enhances oxygen supply for aerobic metabolism."
+    },
+    {
+        question: "Which ion is primarily responsible for muscle relaxation by being actively transported back into the sarcoplasmic reticulum?",
+        options: [
+            "Sodium (Na+)",
+            "Potassium (K+)",
+            "Calcium (Ca2+)",
+            "Chloride (Cl-)"
+        ],
+        correct: 2,
+        explanation: "Calcium is actively transported back into the sarcoplasmic reticulum to allow muscle relaxation."
+    },
+    {
+        question: "Which term refers to the muscle's ability to respond to a stimulus?",
+        options: [
+            "Extensibility",
+            "Contractility",
+            "Excitability",
+            "Elasticity"
+        ],
+        correct: 2,
+        explanation: "Excitability is the ability of a muscle to respond to a stimulus, such as a nerve signal."
+    },
+    {
+        question: "Which structure stores and releases calcium in muscle cells?",
+        options: [
+            "Mitochondria",
+            "Golgi apparatus",
+            "Sarcoplasmic reticulum",
+            "Ribosomes"
+        ],
+        correct: 2,
+        explanation: "The sarcoplasmic reticulum stores and releases calcium, which is essential for muscle contraction."
+    },
+    {
+        question: "Which type of muscle contraction lengthens the muscle while maintaining tension?",
+        options: [
+            "Isometric contraction",
+            "Eccentric contraction",
+            "Concentric contraction",
+            "Tetanic contraction"
+        ],
+        correct: 1,
+        explanation: "Eccentric contractions occur when the muscle lengthens while still generating force, such as lowering a heavy object."
+    },
+    {
+        question: "Which part of the sarcomere shortens during muscle contraction?",
+        options: [
+            "A band",
+            "H zone",
+            "Z disk",
+            "M line"
+        ],
+        correct: 1,
+        explanation: "The H zone shortens as actin and myosin filaments slide past each other."
+    },
+    {
+        question: "Which neurotransmitter is used at the neuromuscular junction?",
+        options: [
+            "Dopamine",
+            "Serotonin",
+            "Acetylcholine",
+            "Norepinephrine"
+        ],
+        correct: 2,
+        explanation: "Acetylcholine is the neurotransmitter that stimulates muscle contraction at the neuromuscular junction."
+    },
+    {
+        question: "Which muscle fiber type has the greatest capacity for aerobic metabolism?",
+        options: [
+            "Type I (Slow-twitch)",
+            "Type IIa (Fast-twitch, oxidative)",
+            "Type IIb (Fast-twitch, glycolytic)",
+            "Myosin-heavy chain fibers"
+        ],
+        correct: 0,
+        explanation: "Slow-twitch fibers (Type I) have a high aerobic capacity due to their abundance of mitochondria and myoglobin."
+    },
+    {
+        question: "Which metabolic process produces the most ATP per glucose molecule?",
+        options: [
+            "Anaerobic glycolysis",
+            "Aerobic respiration",
+            "Creatine phosphate pathway",
+            "Fermentation"
+        ],
+        correct: 1,
+        explanation: "Aerobic respiration produces 36 ATP per glucose molecule, making it the most efficient process."
+    },
+    {
+        question: "What causes rigor mortis?",
+        options: [
+            "Lactic acid buildup",
+            "Lack of ATP preventing cross-bridge detachment",
+            "Hyperactivation of the nervous system",
+            "Excessive calcium release"
+        ],
+        correct: 1,
+        explanation: "Rigor mortis occurs when ATP is depleted, preventing myosin from detaching from actin."
     }
 ];
 
