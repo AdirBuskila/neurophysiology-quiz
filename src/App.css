@@ -1,0 +1,266 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background Styling */
+body {
+  background: linear-gradient(135deg, #e6f0ff, #ffdde1);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* App Container */
+.App {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Quiz Container */
+.quiz-container {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Quiz Title */
+.quiz-container h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-container h1::before {
+  content: "🧠";
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+/* Question Styling */
+.question-container {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Progress Container */
+.progress-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Progress Text - Now Separate from the Bar */
+.progress-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+  /* Creates proper spacing between text and bar */
+}
+
+/* Progress Bar */
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  /* Adjust height for a sleek look */
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Progress Fill */
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border-radius: 10px;
+  transition: width 0.4s ease-in-out;
+}
+
+/* Motivational Message */
+.motivational-message {
+  margin-top: 10px;
+  padding: 12px;
+  background: rgba(212, 237, 218, 0.9);
+  color: #155724;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Answer Buttons */
+.btn {
+  display: block;
+  width: 100%;
+  background: white;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+}
+
+/* Correct and Wrong Answer Styling */
+.correct {
+  background: #4CAF50 !important;
+  color: white;
+  border-color: #3e8e41;
+}
+
+.wrong {
+  background: #FF5252 !important;
+  color: white;
+  border-color: #d32f2f;
+}
+
+/* Explanation Box */
+.explanation {
+  background: rgba(255, 255, 255, 0.8);
+  border-left: 5px solid #4CAF50;
+  padding: 12px;
+  font-size: 16px;
+  color: #333;
+  margin-top: 12px;
+  border-radius: 5px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Next Button */
+.next-btn {
+  background: #007BFF;
+  color: white;
+  padding: 12px 18px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.next-btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #1a1a1a;
+  color: white;
+}
+
+.dark-mode .quiz-container {
+  background: #333;
+  color: white;
+}
+
+/* Night Mode Button */
+/* Night Mode Button - Elegant */
+.toggle-dark-mode {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-dark-mode:hover {
+  background: linear-gradient(135deg, #4c39c4, #2052b9);
+  transform: scale(1.08);
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .quiz-container {
+    padding: 20px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .next-btn {
+    font-size: 16px;
+  }
+
+  .progress-bar {
+    height: 8px;
+  }
+}
+
+/* Question Navigation */
+.question-navigation {
+  margin-bottom: 15px;
+}
+
+.question-navigation label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+.question-navigation select {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.question-navigation select:hover {
+  background: #f0f0f0;
+}
