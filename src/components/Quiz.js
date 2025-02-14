@@ -1,7 +1,9 @@
+// Quiz.js
 import React, { useState, useEffect } from "react";
 import quizData from "./data/quizData";
 import ProgressBar from "./ProgressBar";
 import Explanation from "./Explanation";
+import TopicDisplay from "./TopicDisplay";
 
 const Quiz = () => {
     const [currentQuestion, setCurrentQuestion] = useState(
@@ -36,7 +38,6 @@ const Quiz = () => {
         }
     };
 
-    // Handle Jump to Question
     const handleJumpToQuestion = (event) => {
         const selectedIndex = parseInt(event.target.value);
         setCurrentQuestion(selectedIndex);
@@ -48,7 +49,6 @@ const Quiz = () => {
         <div className="quiz-container">
             <ProgressBar current={currentQuestion + 1} total={quizData.length} />
 
-            {/* Question Navigation */}
             <div className="question-navigation">
                 <label>Jump to: </label>
                 <select onChange={handleJumpToQuestion} value={currentQuestion}>
@@ -59,6 +59,9 @@ const Quiz = () => {
                     ))}
                 </select>
             </div>
+
+            {/* Use the new TopicDisplay component */}
+            <TopicDisplay currentIndex={currentQuestion} />
 
             <h2>{quizData[currentQuestion].question}</h2>
 
